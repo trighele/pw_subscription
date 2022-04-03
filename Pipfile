@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+httpx = "*"
+requests = "*"
+python-dotenv = "*"
+geopy = "*"
+brotli = "*"
+playwright = "*"
+mysql = "*"
+"mysql.connector" = "*"
+pandas = "*"
+tabulate = "*"
+parso = "*"
+
+[dev-packages]
+jupyterlab = "*"
+
+[requires]
+python_version = "3.10"
