@@ -66,4 +66,4 @@ if __name__ == "__main__":
     
     postloader_results = postloader_resp_list(item, postloader_api_response, result_list)
 
-    print(postloader_results)
+    print(json.dumps(postloader_results))

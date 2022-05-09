@@ -149,9 +149,9 @@ if __name__ == "__main__":
                 "max_price" : 800
             },
             {
-                "item" : 'digital camera',
-                "min_price" : 200,
-                "max_price" : 500
+                "item" : 'power washer',
+                "min_price" : 100,
+                "max_price" : 200
             }
         ]
 
@@ -160,7 +160,8 @@ if __name__ == "__main__":
     results = run_fb_items(testItems)
 
     json_string = json.dumps(results)
-    with open("./test_output/fb_items.json", "w") as file1:
-        file1.write(json_string)
-    print('Test completed..')   
+    print(json_string)
 
+    # with open("./test_output/fb_items.json", "w") as file1:
+    #     file1.write(json_string)
+    # print('Test completed..')

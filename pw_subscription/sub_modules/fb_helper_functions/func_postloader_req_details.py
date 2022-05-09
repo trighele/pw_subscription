@@ -35,7 +35,7 @@ def postloader_req_details(item: str, end_cursor_br: str):
         \\"feed_retrieved_items\\":0,\
         \\"ad_req_id\\":0,\
         \\"refresh_ts\\":0,\
-        \\"cursor_id\\":38177,\
+        \\"cursor_id\\":60941,\
         \\"mc_id\\":0,\
         \\"ad_index_e2e\\":0,\
         \\"seen_ads\\":[]},\
@@ -69,22 +69,22 @@ def postloader_req_details(item: str, end_cursor_br: str):
     payload=f'av=100077957444098&\
         __user=100077957444098&\
         __a=1&\
-        __dyn=7AzHK4HwkEng5KbxG4VuC0BVU98nwgU7SbgS3q2ibwNw9G2S7o762S1DwUx609vCxS320om782Cwwwqo465o-cw5MKdwGwQw9m8wsU9kbxS1Fwc61axe3S68f85qfK6E7e58jwGzE7W7oqBwJK2W5olwUwgojUlDw-wUws9ovUaU3VBwJCwLyESE2KwkQq0xoc84K2e&\
-        __csr=gF6Fn9mzgx8BQW6FPOk-Bt8kAzkmDjQgxd4hvETR_iZTlBrgxaBnAhbQKCaBAWmdKcGmcKlbKiaBoCSWDx92QfAxWfAyVEG4A9iggz-gwGA3i48hmuiXyGwhUuHzUkwFgbEWq1JxK9xu9AG0R98pwh89-i5po7K3C2K0Eof82Zwm84GcwkUeE66321YwAK18w8S0gu0GU2bw2fU0nCg03cSxi46micw0Gbw0l0ES039q6EdU1sUdqx-1Mg0_20lK&\
-        __req=17&\
-        __hs=19115.HYP%3Acomet_pkg.2.1.0.2.&\
+        __dyn=7AzHK4HwkEng5KbxG4VuC0BVU98nwgU7SbgS3q2ibwNw9G2S7o762S1DwUx609vCxS320om782Cwwwqo465o-cw5MKdwGwQw9m8wsU9kbxS2218wc61axe3S68f85qfK6E7e58jwGzEaE5e7oqBwJK2W5olwUwgojUlDw-wUws9ovUaU3VBwJCwLyESE2KwwwOhE25wMwhF8-4UdU&\
+        __csr=giiOjMDcIG25OH2bQy8OtPjYO9FuBt9bqWEZbRijfimykDgCnB4tG_BGh29t7h24jAJCGleUCi8CWz945ox29KHy-9Gi2mUKV-aJ5z8Kq5e8zkqqinyu48fqxG48KEGdzmbwwxG4UcoclHxW4U5m3O2Ku9xu2p5wAwiUaE8EO0w88awcu1yxWU-UcE1dU4u1ew4mw4FwmE6OEtxubwpE0K-016hym00F9E8E3SDzFFU0atE04Sa2F00NCo1KAC0cOw&\
+        __req=1c&\
+        __hs=19121.HYP%3Acomet_pkg.2.1.0.2.&\
         dpr=1&\
         __ccg=EXCELLENT&\
-        __rev=1005444505&\
-        __s=866btt%3A8txo3e%3Am5ql8a&\
-        __hsi=7093652700381737707-0&\
+        __rev=1005475387&\
+        __s=fjyqn7%3Amnvtx6%3Awn9ifi&\
+        __hsi=7095719461830738164-0&\
         __comet_req=1&\
-        fb_dtsg=AQGjnBHuZPJ-YJQ%3A48%3A1649072784&\
-        jazoest=21973&\
-        lsd=ffUNZgbzj9EEqu5l7MrpzM&\
-        __spin_r=1005444505&\
+        fb_dtsg=AQHB9URQb7JhwqY%3A18%3A1652100926&\
+        jazoest=21974&\
+        lsd=__WJTRPdYMZ4DRXG-aUDDO&\
+        __spin_r=1005475387&\
         __spin_b=trunk&\
-        __spin_t=1651619724&\
+        __spin_t=1652100929&\
         fb_api_caller_class=RelayModern&\
         fb_api_req_friendly_name=CometMarketplaceSearchContentPaginationQuery&\
         variables={variable_string_formatted}&\
@@ -92,24 +92,25 @@ def postloader_req_details(item: str, end_cursor_br: str):
         doc_id=4900245856749252'
 
     headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
-    'Accept': '*/*',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Content-Type': 'application/x-www-form-urlencoded',
-    'X-FB-Friendly-Name': 'CometMarketplaceSearchContentPaginationQuery',
-    'X-FB-LSD': 'ffUNZgbzj9EEqu5l7MrpzM',
-    'Origin': 'https://www.facebook.com',
-    'Connection': 'keep-alive',
-    'Referer': f'https://www.facebook.com/marketplace/103675689671038/search/?query={item_formatted}',
-    'Cookie': f'{os.environ.get("fb_cookie")}',
-    'Sec-Fetch-Dest': 'empty',
-    'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Site': 'same-origin',
-    'Pragma': 'no-cache',
-    'Cache-Control': 'no-cache',
-    'TE': 'trailers'
-    }
+        'authority': 'www.facebook.com',
+        'accept': '*/*',
+        'accept-language': 'en-US,en;q=0.9',
+        'content-type': 'application/x-www-form-urlencoded',
+        'cookie': f'{os.environ.get("fb_cookie")}',
+        'origin': 'https://www.facebook.com',
+        'referer': f'https://www.facebook.com/marketplace/103675689671038/search/?query={item_formatted}',
+        'sec-ch-prefers-color-scheme': 'light',
+        'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36',
+        'viewport-width': '749',
+        'x-fb-friendly-name': 'CometMarketplaceSearchContentPaginationQuery',
+        'x-fb-lsd': '__WJTRPdYMZ4DRXG-aUDDO'
+    }    
 
     return url, payload, headers
 
@@ -119,7 +120,7 @@ if __name__ == "__main__":
     from func_preloader_req_details import preloader_req_details
     from func_preloader_resp_list import preloader_resp_list
 
-    item = 'iphone 13'
+    item = 'playstation'
 
     preloader_req_details = preloader_req_details(item)
 
@@ -143,4 +144,4 @@ if __name__ == "__main__":
         follow_redirects=False
         )
      
-    print(postloader_api_response.status_code)
+    print(postloader_api_response.text)
