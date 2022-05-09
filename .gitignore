@@ -5,6 +5,7 @@
 .env
 
 ## Cache crap
+sub_modules\__pycache__\
 __pycache__\
 *.pyc
 
