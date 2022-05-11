@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 import re
 
-from fb_helper_functions import func_preloader_req_details, \
+from sub_modules.fb_helper_functions import func_preloader_req_details, \
     func_preloader_resp_list, \
     func_postloader_req_details, \
     func_postloader_resp_list, \
